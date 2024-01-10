@@ -46,8 +46,8 @@ let emotion1 = prompt('Enter an emotion');
 let relationship1 = prompt('Enter a relationship');
 
 if (randNum !== '0' && randNum !== '1') {
-//    randNum = Math.floor(Math.random() * 2);
-    randNum = 3;
+    randNum = Math.floor(Math.random() * 2);
+//    randNum = 3;
 }
 console.log(randNum);
 if (randNum === '0') {
