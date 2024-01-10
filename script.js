@@ -49,6 +49,13 @@ if (randNum !== '0' && randNum !== '1') {
     randNum = Math.floor(Math.random() * 2);
 //    randNum = 3;
 }
+
+if (randNum === 1) {
+    randNum = '1';
+} else if (randNum === 0) {
+    randNum = '0';
+}
+
 console.log(randNum);
 if (randNum === '0') {
     story = `Once upon a time, in a ${adjective1} ${noun1}, a ${verb1} ${noun2} ${adverb1} ${verb2}.`;
